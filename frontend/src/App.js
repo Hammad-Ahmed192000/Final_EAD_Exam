@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Axios from "axios";
+import React from 'react'
+import addingRecipe from "./Components/addingRecipe";
+
 
 function App() {
   const [data, setData] = useState("");
@@ -16,7 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{data}</h1>      
+      <h1>{data}</h1> 
+      <addingRecipe/>      
     </div>
   );
 }
