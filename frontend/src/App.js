@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{data} This Line is from backend</h1>      
+      <h1>{data}</h1>      
     </div>
   );
 }
